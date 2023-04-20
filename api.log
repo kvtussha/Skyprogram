@@ -56,3 +56,31 @@ INFO:werkzeug:127.0.0.1 - - [09/Jan/2023 09:33:43] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [09/Jan/2023 09:33:43] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [09/Jan/2023 09:33:43] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [09/Jan/2023 09:33:43] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2023 17:26:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2023 17:26:39] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2023 17:26:39] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2023 17:26:39] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2023 17:26:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2023 17:26:49] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2023 17:26:49] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2023 17:26:49] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2023 17:26:49] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Jan/2023 17:27:28] "GET /api/posts HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2023 22:20:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2023 22:20:46] "GET /static/css/styles.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2023 22:20:46] "GET /static/img/bookmark.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2023 22:20:46] "GET /static/img/eye.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2023 22:20:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2023 22:20:49] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2023 22:20:49] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2023 22:20:49] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2023 22:20:49] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m

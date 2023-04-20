@@ -19,7 +19,7 @@ app.register_blueprint(api_blueprint)
 
 @app.errorhandler(404)
 def error_404(e):
-    return 'Страница не сущестует', 404
+    return 'Страница не сущесвтует', 404
 
 
 @app.errorhandler(500)
