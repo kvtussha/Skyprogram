@@ -1,0 +1,11 @@
+[Unit]
+Description=Flask-app
+After=network.target
+
+[Service]
+WorkingDirectory=/home/k_chernyshova/skyprogram/
+ExecStart=/home/k_chernyshova/env/bin/gunicorn -b 0.0.0.0:80 -w 4 app:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
